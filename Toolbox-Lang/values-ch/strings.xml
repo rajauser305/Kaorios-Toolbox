@@ -1,0 +1,445 @@
+<resources>
+
+    <!-- #Chinese-Simplified - by: @zara5632-->
+
+    <!-- Common -->
+    <string name="common_reset_to_default">恢复默认设置</string>
+    <string name="common_snackbar_permission_needed">请先授予权限再恢复默认设置.</string>
+    <string name="common_snackbar_reset_success">恢复默认设置</string>
+    <string name="common_snackbar_reset_partial">无法恢复一些东西</string>
+    <string name="common_snackbar_reset_error">恢复的时候出了些错误 (%1$s).</string>
+    <string name="common_error_unknown">未知</string>
+    <string name="common_snackbar_save_error">保存失败 &quot;%1$s&quot;</string>
+    <string name="common_permissions_required_title">请授予权限</string>
+    <string name="common_permissions_required_message">该应用需要权限来修改设置并运行.</string>
+    <string name="common_action_allow">允许</string>
+    <string name="common_action_import_json">导入JSON文件</string>
+    <string name="common_action_export_json">导出JSON文件</string>
+    <string name="common_action_add_field">添加字段</string>
+    <string name="common_state_importing">导入中…</string>
+    <string name="common_state_exporting">导出中…</string>
+    <string name="common_state_saving">保存中…</string>
+    <string name="common_button_save">保存</string>
+    <string name="common_button_add">添加</string>
+    <string name="common_button_close">关闭</string>
+    <string name="common_snackbar_export_json_success">JSON文件成功导出.</string>
+    <string name="common_button_cancel">取消</string>
+    <string name="common_button_default">默认</string>
+    <string name="common_button_apply">应用</string>
+    <string name="common_button_confirm">确认</string>
+    <string name="common_button_select_file">选择文件</string>
+    <string name="common_button_enter_url">输入URL（网址）</string>
+    <string name="common_button_refresh">同步</string>
+    <string name="common_button_start">开始</string>
+    <string name="common_button_open">打开</string>
+    <string name="common_label_field_name">字段名</string>
+    <string name="common_error_field_exists">字段名已存在</string>
+    <string name="common_error_field_invalid">字段名只可以包含字母、数字、空格、连字符、点或下划线.</string>
+    <string name="common_button_open_folder">打开文件夹</string>
+    <string name="common_button_delete">删除</string>
+    <string name="common_action_select_folder">选择文件夹</string>
+
+    <!-- Home -->
+    <string name="home_toast_hidden_tab_enabled">隐藏标签已启用</string>
+    <string name="home_brand_logo_content_description">%1$s logo</string>
+    <string name="home_security_patch">安全更新: %1$s</string>
+    <string name="device_info_brand">品牌</string>
+    <string name="device_info_manufacturer">制造商</string>
+    <string name="device_info_product">产品</string>
+    <string name="device_info_codename">代号</string>
+    <string name="device_info_model">机型</string>
+    <string name="device_info_serial">序列号</string>
+    <string name="device_info_kernel">内核</string>
+    <string name="device_info_fingerprint">指纹</string>
+    <string name="home_serial_hidden_label">展示</string>
+    <string name="home_toast_copied">已粘贴: %1$s</string>
+    <string name="home_bootloader_label" translatable="false">#Bootloader: %1$s</string>
+    <string name="home_bootloader_state_locked" translatable="false">已锁定</string>
+    <string name="home_bootloader_state_unlocked" translatable="false">已解锁</string>
+    <string name="home_bootloader_state_unknown" translatable="false">未知</string>
+    <string name="home_user_avatar_content_description">用户头像</string>
+
+    <!-- Features Tools -->
+    <string name="features_group_features">功能</string>
+    <string name="features_toggle_spoof_tensor_title">伪装 Pixel/Tensor 特征</string>
+    <string name="features_toggle_spoof_tensor_summary">使用Pixel/Tensor设备的prop以在非Pixel设备上解锁独家功能.</string>
+    <string name="features_toggle_spoof_pixel_props_title">伪装Pixel的prop</string>
+    <string name="features_toggle_spoof_pixel_props_summary">使用最新的 Pixel 构建属性应用于关键的Google experiences，以实现更好的功能一致性.</string>
+    <string name="features_toggle_spoof_gphotos_title">Google照片备份</string>
+    <string name="features_toggle_spoof_gphotos_summary">将设备伪装为 Pixel手机，以在 Google 相册中解锁原始质量的无限备份。</string>
+    <string name="features_toggle_spoof_qsb_title">对Google搜索伪装</string>
+    <string name="features_toggle_spoof_qsb_summary">允许对Google 应用和快速搜索框伪造Pixel特征.</string>
+    <string name="features_toggle_spoof_games_title">对应用伪装</string>
+    <string name="features_toggle_spoof_games_summary">伪装设备配置以解锁应用的高级功能。.\n打开需要伪装的应用进行配置.</string>
+    <string name="features_list_spoof_games_option_disabled" translatable="false">已禁用</string>
+    <string name="features_list_spoof_games_option_hardcoded" translatable="false">框架</string>
+    <string name="features_list_spoof_games_option_json" translatable="false">工具箱 + 框架</string>
+    <string name="features_toggle_spoof_music_apps_title">对音乐流媒体应用伪装</string>
+    <string name="features_toggle_spoof_music_apps_summary">将设备伪装成魅族旗舰机，以便在支持的音乐应用中解锁高级播放功能.</string>
+    <string name="features_toggle_spoof_snapchat_title">对Snapchat伪装</string>
+    <string name="features_toggle_spoof_snapchat_summary">当 Snapchat 检查设备时回应Pixel认证属性.</string>
+    <string name="features_toggle_messenger_chathead_title">Messenger 聊天头像</string>
+    <string name="features_toggle_messenger_chathead_summary">对Messenger伪装为 Galaxy S24 Ultra ，以保留经典聊天头像而不是 Android 气泡.</string>
+    <string name="features_toggle_spoof_vending_title">对play商店伪装</string>
+    <string name="features_toggle_spoof_vending_summary">对Google Play 伪装配置以通过 SafetyNet/Play 完整性检查.</string>
+    <string name="features_toggle_fps_patch_title">解锁高级文件修补</string>
+    <string name="features_toggle_fps_patch_summary">允许解锁游戏配置, 例如 Teamfight Tactics,…</string>
+    <string name="features_group_play_integrity">Google Play Integrity</string>
+    <string name="features_toggle_spoof_gms_title">对Google Play服务伪装</string>
+    <string name="features_toggle_spoof_gms_summary">在需要认证时，将 Pixel 属性应用到 Google Play 服务.</string>
+    <string name="features_toggle_spoof_provider_title">伪装密钥提供者</string>
+    <string name="features_toggle_spoof_provider_summary">替换 Android 密钥提供程序以对 Google Play 服务和 Play 商店伪造密钥认证。</string>
+    <string name="features_toggle_spoof_attestation_title">阻止认证</string>
+    <string name="features_toggle_spoof_attestation_summary">阻止应用密钥认证.</string>
+    <string name="features_toggle_spoof_keybox_title">伪装密钥</string>
+    <string name="features_toggle_spoof_keybox_summary">应用模拟的密钥响应以绕过 Play integrity.</string>
+    <string name="features_group_system_adjustments">系统调整</string>
+    <string name="features_toggle_force_boot_hash_title">强制使用boot hash</string>
+    <string name="features_toggle_force_boot_hash_summary">覆盖bootloader hash以与应用的密钥数据保持一致.</string>
+    <string name="features_title_controls">功能控制</string>
+    <string name="features_snackbar_recommended_toggle">推荐开启这个功能.</string>
+    <string name="features_content_description_recommended">推荐</string>
+    <string name="features_prop_section_title" translatable="false">系统属性</string>
+    <string name="features_prop_button_open" translatable="false">设置系统属性</string>
+    <string name="features_prop_dialog_title" translatable="false">设置系统属性</string>
+    <string name="features_prop_key_label" translatable="false">属性名称</string>
+    <string name="features_prop_value_label" translatable="false">数值 (留空以清除)</string>
+    <string name="features_prop_button_load" translatable="false">加载当前值</string>
+    <string name="features_prop_message_loaded" translatable="false">当前数值: %1$s</string>
+    <string name="features_prop_message_loaded_empty" translatable="false">当前数据: (空)</string>
+    <string name="features_prop_error_empty_key" translatable="false">请输入属性名称.</string>
+    <string name="features_prop_result_failed" translatable="false">setprop：失败（桥接不可用）</string>
+
+    <!-- Hidden Tools -->
+    <string name="hidden_group_sensitive_title">敏感选项</string>
+    <string name="hidden_section_empty_message">隐藏的功能暂不可用。请关闭隐藏模式以返回标准工具集.</string>
+    <string name="hidden_action_disable">禁用隐藏模式</string>
+    <string name="hidden_title_mode">隐藏模式</string>
+    <string name="hidden_snackbar_disabled">敏感模式已关闭.</string>
+    <string name="hidden_section_management">补丁管理</string>
+    <string name="hidden_action_add_package">添加包</string>
+    <string name="hidden_snackbar_refreshed_file_patch">已重新加载的文件补丁数据.</string>
+    <string name="hidden_snackbar_saved_file_patch">文件补丁数据已保存.</string>
+    <string name="hidden_action_add_app">添加应用</string>
+    <string name="hidden_action_refresh">同步</string>
+    <string name="hidden_action_revert">还原</string>
+    <string name="hidden_snackbar_saved">FPS 补丁数据已保存.</string>
+    <string name="hidden_section_existing_title">当前配置</string>
+    <string name="hidden_empty_packages">尚未配置应用程序.</string>
+    <string name="hidden_app_picker_title">选择应用程序</string>
+    <string name="hidden_app_picker_search">搜索应用…</string>
+    <string name="hidden_app_picker_show_system">显示系统应用</string>
+    <string name="hidden_app_not_installed">应用未安装</string>
+    <string name="hidden_editor_title">打补丁为%1$s</string>
+    <string name="hidden_placeholder_package_name">未命名软件包</string>
+    <string name="hidden_action_delete_package">删除软件包</string>
+    <string name="hidden_field_profile">配置文件（可选）</string>
+    <string name="hidden_section_roots">根目录</string>
+    <string name="hidden_action_add_root">添加根目录</string>
+    <string name="hidden_empty_roots">未配置根目录.</string>
+    <string name="hidden_field_root_base_path">基础目录</string>
+    <string name="hidden_field_walk_children">遍历子目录</string>
+    <string name="hidden_field_include_pattern">包含过滤器（正则表达式）</string>
+    <string name="hidden_action_remove_root">移除根目录</string>
+    <string name="hidden_section_operations">操作</string>
+    <string name="hidden_action_add_operation">添加操作</string>
+    <string name="hidden_empty_operations">暂无操作.</string>
+    <string name="hidden_field_relative_path">相对路径</string>
+    <string name="hidden_field_content_text">文本内容</string>
+    <string name="hidden_field_content_base64">base64 编码内容</string>
+    <string name="hidden_field_search_text">查找文本</string>
+    <string name="hidden_field_encoding">编码</string>
+    <string name="hidden_field_max_replacements">最大替换次数（-1 = 全部替换）</string>
+    <string name="hidden_action_delete_operation">删除操作</string>
+    <string name="hidden_operation_type_overwrite_bytes">覆盖字节</string>
+    <string name="hidden_operation_type_overwrite_text">覆盖文本</string>
+    <string name="hidden_operation_type_search_replace">搜索 &&替换文本</string>
+    <string name="hidden_operation_type_custom">自定义</string>
+    <string name="hidden_summary_rule_count">规则: %1$d</string>
+    <string name="hidden_action_add_rule">添加规则</string>
+    <string name="hidden_dialog_add_title">添加配置</string>
+    <string name="hidden_dialog_add_description">选择应用和要创建的补丁类型.</string>
+    <string name="hidden_field_package_name">应用包</string>
+    <string name="hidden_dialog_select_template">选择补丁类型</string>
+    <string name="hidden_error_empty_json">无法读取 JSON 内容.</string>
+    <string name="hidden_snackbar_import_ready">JSON文件 已加载.查看并保存以应用.</string>
+    <string name="hidden_error_no_export_target">未选择目标位置.</string>
+    <string name="hidden_error_write_selected_file">无法写入所选文件.</string>
+    <string name="hidden_snackbar_export_success">JSON 文件导出成功.</string>
+    <string name="hidden_error_encode_base64">无法处理所选文件.</string>
+    <string name="hidden_snackbar_base64_loaded">文件已编码为 Base64.</string>
+    <string name="hidden_section_base64">Base64编码 payload</string>
+    <string name="hidden_field_base64">Base64 数据</string>
+    <string name="hidden_action_pick_file">选择文件</string>
+    <string name="hidden_section_text_replace">单个替换</string>
+    <string name="hidden_field_find_text">查找文本</string>
+    <string name="hidden_field_replace_text">替换为</string>
+    <string name="hidden_section_multi_text">多个替换规则</string>
+    <string name="hidden_action_add_sub_rule">添加规则</string>
+    <string name="hidden_field_desc_optional">描述（可选）</string>
+    <string name="hidden_action_remove_sub_rule">移除规则</string>
+    <string name="hidden_section_hex_rules">十六进制补丁规则</string>
+    <string name="hidden_field_find_hex">查找十六进制</string>
+    <string name="hidden_field_replace_hex">替换为</string>
+    <string name="hidden_section_extra_flags">附加标志</string>
+    <string name="hidden_section_extra_numbers">数值</string>
+    <string name="hidden_section_extra_strings">附加字符串</string>
+    <string name="hidden_template_base64">写入Base64 文件</string>
+    <string name="hidden_template_text">单文本补丁</string>
+    <string name="hidden_template_multi_text">多文本补丁</string>
+    <string name="hidden_template_hex">十六进制补丁</string>
+    <string name="hidden_field_filename">目标文件路径</string>
+    <string name="hidden_field_desc">描述</string>
+    <string name="hidden_field_enabled">已启用</string>
+    <string name="hidden_field_include_kousei">包含 kousei 特征</string>
+    <string name="hidden_rule_header">规则为 %1$s</string>
+    <string name="hidden_dialog_no_rules">此应用尚未定义任何规则。.</string>
+    <string name="hidden_snackbar_refreshed">已重新加载 FPS 补丁数据.</string>
+    <string name="hidden_action_duplicate_rule">重复</string>
+    <string name="hidden_action_delete_rule">删除</string>
+    <string name="hidden_message_missing_packages">%1$d 应用配置针对未安装的应用</string>
+
+    <!-- FPS Overlay -->
+    <string name="tool_page_fps_title">FPS</string>
+    <string name="tool_page_fps_summary">显示 FPS 叠加层并自定义其外观。.</string>
+    <string name="fps_title">FPS 叠加层</string>
+    <string name="fps_permission_overlay">需要叠加层权限才能在其他应用之上显示 FPS.</string>
+    <string name="fps_action_grant_overlay">授予叠加层权限</string>
+    <string name="fps_toggle_enable">启用 FPS 叠加层</string>
+    <string name="fps_position">位置</string>
+    <string name="fps_size">文本大小</string>
+    <string name="fps_bg_color">背景颜色(#RRGGBB)</string>
+    <string name="fps_text_color">文本颜色 (#RRGGBB)</string>
+    <string name="fps_bg_alpha">背景不透明度</string>
+    <string name="fps_text_alpha">文本不透明度</string>
+    <string name="fps_padding">内边距 (dp)</string>
+    <string name="fps_apply">应用</string>
+    <string name="fps_overlay_value">%1$.1f FPS</string>
+    <string name="fps_overlay_error">FPS 不可用</string>
+    <string name="fps_error_color">无效的颜色代码</string>
+    <string name="fps_error_root">未授予 root 权限；仅使用框架 FPS.</string>
+
+    <!-- Hide Developer -->
+    <string name="hide_dev_message">你好，隐藏开发者</string>
+
+    <!-- Integrity Tools -->
+    <string name="integrity_error_empty_json">JSON 文件为空或无法读取.</string>
+    <string name="integrity_snackbar_import_ready">文件已导入，保存以应用.</string>
+    <string name="integrity_error_write_selected_file">无法写入所选文件.</string>
+    <string name="integrity_snackbar_export_keybox_success">密钥盒导出成功。</string>
+    <string name="integrity_error_empty_keybox">密钥盒文件为空或无法读取。</string>
+    <string name="integrity_snackbar_import_keybox_success">密钥盒已导入系统。</string>
+    <string name="integrity_title">Play Integrity Tools</string>
+    <string name="integrity_cd_auto_update">自动更新设置</string>
+    <string name="integrity_section_data_management">数据管理</string>
+    <string name="integrity_action_import_keybox">导入密钥盒</string>
+    <string name="integrity_action_export_keybox">导出密钥盒</string>
+    <string name="integrity_error_no_keybox_data">没有密钥盒数据可导出。</string>
+    <string name="integrity_section_certificate_title">GMS <string name="integrity_last_update_none">上次更新：无可用数据。</string>
+    <string name="integrity_last_update_value">上次更新：%1$s</string>
+    <string name="integrity_auto_update_enabled">已启用自动更新。</string>
+    <string name="integrity_snackbar_saved">JSON 已保存到系统。</string>
+    <string name="integrity_snackbar_refreshed">已获取最新数据。</string>
+    <string name="integrity_snackbar_latest">数据已是最新。</string>
+    <string name="integrity_snackbar_auto_update_disabled">已禁用自动更新。</string>
+    <string name="integrity_snackbar_no_new_data">无新数据。</string>
+    <string name="integrity_dialog_auto_update_title">JSON自动更新</string>
+    <string name="integrity_dialog_auto_update_toggle">启用自动更新</string>
+    <string name="integrity_dialog_auto_update_summary">应用打开时自动刷新证书数据。</string>
+    <string name="integrity_dialog_no_recorded_update">尚未记录任何更新。</string>
+    <string name="integrity_dialog_last_update_value">上次更新日期：%1$s</string>
+    <string name="integrity_dialog_refresh_now">立即刷新</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_primary_color_title">主色</string>
+    <string name="settings_primary_color_default">默认（系统）</string>
+    <string name="settings_primary_color_custom">使用自定义颜色</string>
+    <string name="settings_theme_title">主题</string>
+    <string name="settings_theme_system">跟随系统</string>
+    <string name="settings_theme_light">浅色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_background_title">背景图片</string>
+    <string name="settings_background_not_set">未设置</string>
+    <string name="settings_background_set">已选择背景图片</string>
+    <string name="settings_avatar_title">头像</string>
+    <string <string name="settings_avatar_not_set">未设置</string>
+    <string name="settings_avatar_set">已选择自定义头像</string>
+    <string name="settings_section_about">关于</string>
+    <string name="settings_version_title">版本</string>
+    <string name="settings_version_dev_enabled">已启用开发者模式</string>
+    <string name="settings_back_title">返回</string>
+    <string name="settings_back_subtitle">关闭设置</string>
+    <string name="settings_background_dialog_title">背景图片设置</string>
+    <string name="settings_background_status_not_set">未选择背景图片</string>
+    <string name="settings_background_status_set">已选择背景图片</string>
+    <string name="settings_action_choose_image">选择图片</string>
+    <string name="settings_action_remove_image">移除图片</string>
+    <string <string name="settings_avatar_dialog_title">头像</string>
+    <string name="settings_avatar_dialog_description">选择本地图片或粘贴 URL / Telegram 用户名。</string>
+    <string name="settings_avatar_action_choose_image">从设备中选择</string>
+    <string name="settings_avatar_action_remove">移除头像</string>
+    <string name="settings_avatar_input_label">图片 URL 或 Telegram 用户名</string>
+    <string name="settings_avatar_input_placeholder">https://… 或 @username</string>
+    <string name="settings_avatar_action_fetch">获取图片</string>
+    <string name="settings_avatar_loading">正在加载…</string>
+    <string name="settings_avatar_toast_success">头像已更新</string>
+    <string name="settings_avatar_toast_removed">头像已移除</string>
+    <string name="settings_avatar_toast_error">%1$s</string>
+    <string name="settings_background_blur">背景模糊：%1$.0f dp</string>
+    <string name="settings_background_card_opacity">卡片叠加层不透明度：%1$d%%</string>
+    <string name="settings_theme_dialog_title">主题</string>
+    <string name="settings_dialog_password_title">公生？</string>
+    <string name="settings_password_label">kaorios</string>
+    <string name="settings_toast_password_ok">确定</string>
+    <string name="settings_toast_password_no">否</string>
+    <string name="settings_dialog_secret_title">保存加密配置</string>
+    <string name="settings_dialog_secret_body">填写“mahoa”字段。</string>应用将自动插入解码后的值。</string>
+    <string name="settings_dialog_secret_input_label">Mahoa 值</string>
+    <string name="settings_toast_serial_unavailable">无法获取序列号</string>
+    <string name="settings_toast_mahoa_required">请输入 mahoa 值</string>
+    <string name="settings_toast_json_error">JSON 构建失败</string>
+    <string name="settings_toast_mahoa_saved">kousei_mahoa 已保存</string>
+    <string name="settings_toast_mahoa_failed">写入失败</string>
+    <string name="settings_dialog_primary_color_title">选择主色</string>
+    <string name="settings_dialog_primary_color_hex_label">颜色代码 #RRGGBB</string>
+    <string name="settings_language_title">语言</string>
+    <string name="settings_language_system">使用设备语言</string>
+    <string name="settings_language_english" translatable="false">英语</string>
+    <string name="settings_language_indonesian" translatable="false">印尼语</string>
+    <string name="settings_language_spanish" translatable="false">西班牙语</string>
+    <string name="settings_language_russian" translatable="false">俄语</string>
+    <string name="settings_language_vietnamese" translatable="false">越南语</string>
+    <string name="settings_language_dialog_title">选择语言</string>
+
+    <!-- Tools -->
+    <string name="tools_list_title">列表</string>
+    <string name="tools_serial_unknown">N/A</string>
+    <string name="tools_cd_author_logo">Kousei作者logo</string>
+    <string name="tools_author_name">Kousei</string>
+    <string name="tools_author_description">Kousei 开发的内部控制工具</string>
+    <string name="tools_join_now">立即加入:</string>
+    <string name="tools_cd_github">GitHub 项目</string>
+    <string name="tools_cd_telegram_channel">Telegram 频道</string>
+    <string name="tools_cd_forum">讨论组</string>
+    <string name="tools_serial_format">#%1$s</string>
+
+    <!-- Tool Pages -->
+    <string name="tool_page_integrity_title">完整性修复</string>
+    <string name="tool_page_integrity_summary">检查设备完整性和状态</string>
+    <string name="tool_page_features_title">功能</string>
+    <string name="tool_page_features_summary">实用工具和功能开关</string>
+    <string name="tool_page_spoofing_title">对应用伪装</string>
+    <string name="tool_page_spoofing_summary">伪装成其他设备运行应用</string>
+    <string name="tool_page_payload_title">Payload 提取器</string>
+    <string name="tool_page_payload_summary">直接从链接或 OTA ROM 中提取 .img 文件</string>
+    <string name="tool_page_hidden_title">隐藏</string>
+    <string name="tool_page_hidden_summary">开发者选项</string>
+
+    <!-- Spoofing Tools -->
+    <string name="spoofing_title">对应用伪装</string>
+    <string name="spoofing_section_data_management">数据管理</string>
+    <string name="spoofing_action_auto_apply">自动添加</string>
+    <string name="spoofing_action_add_app">添加应用</string>
+    <string name="spoofing_section_configured_apps">已配置的应用</string>
+    <string name="spoofing_empty_configured_apps">未配置任何应用.</string>
+    <string name="spoofing_empty_search_results">未找到匹配的应用.</string>
+    <string name="spoofing_dialog_app_picker_title">选择应用</string>
+    <string name="spoofing_search_label">搜索</string>
+    <string name="spoofing_cd_more_options">更多选项</string>
+    <string name="spoofing_toggle_show_system_apps">显示系统应用</string>
+    <string name="spoofing_editor_title_add">添加配置</string>
+    <string name="spoofing_editor_title_edit">编辑配置</string>
+    <string name="spoofing_action_device_models">设备型号</string>
+    <string name="spoofing_dialog_device_models_title">设备型号</string>
+    <string name="spoofing_search_device_models">搜索设备型号</string>
+    <string name="spoofing_empty_device_models">没有可用的设备数据。.</string>
+    <string name="spoofing_empty_model_results">未找到匹配的型号.</string>
+    <string name="spoofing_app_details_empty">此应用没有数据。.</string>
+    <string name="spoofing_search_placeholder">搜索…</string>
+    <string name="spoofing_action_edit">搜索…</string>
+    <string name="spoofing_dialog_delete_title">删除配置</string>
+    <string name="spoofing_dialog_delete_message">确定要删除 %1$s 的配置吗？</string>
+    <string name="spoofing_snackbar_import_empty">无法读取 JSON 内容。.</string>
+    <string name="spoofing_snackbar_import_no_installed">JSON 中不包含任何已安装的应用。</string>
+    <string name="spoofing_snackbar_import_success">JSON 文件导入成功。.</string>
+    <string name="spoofing_snackbar_export_failed">无法写入 JSON 文件.</string>
+    <string name="spoofing_snackbar_auto_apply_no_apps">没有可用的已安装应用.</string>
+    <string name="spoofing_snackbar_server_no_match">服务器数据与任何已安装的应用都不匹配。.</string>
+    <string name="spoofing_snackbar_server_updated">已从服务器更新数据。</string>
+    <string name="spoofing_snackbar_save_success">已保存 %1$s 的配置。</string>
+    <string name="spoofing_snackbar_delete_success">已删除 %1$s 的配置.</string>
+    <string name="spoofing_cd_remove_field">移除字段</string>
+
+    <!-- Payload Tools -->
+    <string name="payload_toast_notification_permission">需要通知权限才能显示进度。</string>
+    <string name="payload_toast_select_source">请选择一个文件或输入有效的 URL</string>
+    <string name="payload_toast_select_partition">请至少选择一个分区.</string>
+    <string name="payload_toast_no_source_file">未选择源文件.</string>
+    <string name="payload_error_empty_url">URL 为空。.</string>
+    <string name="payload_toast_already_running">另一个进程正在运行。.</string>
+    <string name="payload_toast_notifications_disabled">通知已禁用，您可以在设置中重新启用它们以监控进度。</string>
+    <string name="payload_title">Payload 提取器</string>
+    <string name="payload_cd_output_settings">输出设置</string>
+    <string name="payload_status_no_file">未选择文件</string>
+    <string name="payload_input_url_label">输入要下载的 URL…</string>
+    <string name="payload_input_url_placeholder">https://…</string>
+    <string name="payload_status_no_output_dir">未选择输出文件夹</string>
+    <string name="payload_output_label">正在保存到: %1$s</string>
+    <string name="payload_hint_select_source">要从 ROM 中提取 .img 文件:\n选择文件或输入文件 URL\n支持 OTA 恢复 (.zip) 或有效payload文件 (.bin)</string>
+    <string name="payload_status_idle">无有效的payload文件正在解包.</string>
+    <string name="payload_status_complete">已完成</string>
+    <string name="payload_error_open_file">无法打开 %1$s. Please open it manually.</string>
+    <string name="payload_hint_selection_none">未选择任何项目</string>
+    <string name="payload_hint_selection_count">选择 %1$d/%2$d</string>
+    <string name="payload_progress_ratio">%1$s / %2$s</string>
+    <string name="payload_error_open_directory">无法打开目标文件夹；请手动打开.</string>
+    <string name="payload_dialog_output_title">输出文件夹:</string>
+    <string name="payload_dialog_output_none">(未选择)</string>
+    <string name="payload_dialog_current_label">当前: %1$s</string>
+    <string name="payload_source_link_text">来源: rcmiku &amp; YuKongA</string>
+    <string name="payload_cd_open_github">打开GitHub</string>
+    <string name="payload_volume_internal">内部存储</string>
+    <string name="payload_volume_home">主页</string>
+    <string name="payload_volume_downloads">下载</string>
+    <string name="payload_volume_external">存储 (%1$s)</string>
+    <string name="payload_volume_with_path">%1$s/%2$s</string>
+    <string name="payload_size_gigabytes">%.2f GB</string>
+    <string name="payload_size_megabytes">%.2f MB</string>
+    <string name="payload_size_kilobytes">%.2f KB</string>
+    <string name="payload_size_bytes">%1$d B</string>
+
+    <!-- Permissions Prompt -->
+    <string name="permissions_prompt_title">需要系统权限</string>
+    <string name="permissions_prompt_message">Kaorios Toolbox 需要修改设置的能力来运行.</string>
+    <string name="permissions_prompt_positive">授予权限</string>
+    <string name="permissions_prompt_negative">跳过</string>
+
+    <!-- Main Activity -->
+    <string name="main_notice_loading">获取所需数据中…</string>
+    <string name="main_notice_error">无法获取数据.</string>
+    <string name="main_notice_loaded">需要已下载数据</string>
+    <string name="main_notice_ready">需要的数据已同步</string>
+    <string name="main_tab_home">主页</string>
+    <string name="main_tab_tools">工具</string>
+    <string name="main_dialog_preparing_data">准备数据</string>
+    <string name="main_dialog_loading_message">获取所需数据中...</string>
+    <string name="main_dialog_framework_title">需要框架</string>
+    <string name="main_dialog_framework_message">Kaorios Toolbox 需要框架工具包才能运行.</string>
+    <string name="main_dialog_framework_open">打开GitHub项目</string>
+    <string name="main_cd_app_logo">应用logo</string>
+    <string name="main_cd_restart">重启</string>
+    <string name="main_cd_settings">设置</string>
+    <string name="main_dialog_exit_title">退出应用</string>
+    <string name="main_dialog_exit_message">你确定要退出?</string>
+    <string name="main_action_exit">退出</string>
+    <string name="main_dialog_restart_title">重启</string>
+    <string name="main_dialog_restart_message">选择重启到哪个模式</string>
+    <string name="main_action_recovery">恢复模式</string>
+    <string name="main_action_reboot">系统</string>
+    <string name="main_action_bootloader">Bootloader模式</string>
+    <string name="main_preview_notice">仅供预览的示例跑马灯信息</string>
+    <string name="main_preview_body">预览正文</string>
+    <string name="features_toggle_spoof_netflix_title">对Netflix伪装</string>
+    <string name="features_toggle_spoof_netflix_summary">伪造Pixel 设备以解锁 Netflix 应用的某些功能。</string>
+</resources>
